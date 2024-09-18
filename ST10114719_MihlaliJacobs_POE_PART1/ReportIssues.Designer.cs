@@ -40,11 +40,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.btnSubmitReport = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.button2 = new System.Windows.Forms.Button();
             this.pbReportIssues = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbReportIssues)).BeginInit();
             this.SuspendLayout();
@@ -76,7 +76,14 @@
             "Education ",
             "Public Transportation ",
             "Government ",
-            "Telecommunications "});
+            "Telecommunications ",
+            "Law Enforcement",
+            "Water Supply ",
+            "Tourism",
+            "Health Care",
+            "Electricity",
+            "Street Lighting ",
+            "Waste Management "});
             this.listCategory.Location = new System.Drawing.Point(169, 103);
             this.listCategory.Name = "listCategory";
             this.listCategory.Size = new System.Drawing.Size(172, 121);
@@ -176,6 +183,15 @@
             this.panel1.Size = new System.Drawing.Size(776, 345);
             this.panel1.TabIndex = 12;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(216, 14);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(100, 13);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "Reporting Progress:";
+            // 
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(322, 3);
@@ -213,15 +229,6 @@
             this.pbReportIssues.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbReportIssues.TabIndex = 14;
             this.pbReportIssues.TabStop = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(216, 14);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 13);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "Reporting Progress:";
             // 
             // Form2
             // 
